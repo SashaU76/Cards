@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        canvas{
+            width: 100%;
+        }
+        @font-face {
+            font-family: 'font';
+            src: url('assets/fonts/Painting_With_Chocolate.ttf')
+        }
+        .fontPreload {
+            font-family: 'font';
+            position: absolute;
+            left:-100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fontPreload">.</div>
+    <script src="assets/scripts/phaser.js"></script>
+    <script src="assets/scripts/GameScene.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/Card.js"></script>
+</body>
+</html>
